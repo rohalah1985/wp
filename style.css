@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url('/fonts/Vazir.woff');
+}
+
+body{
+    background-color: #fbfbfb;
+    direction: rtl;
+    font-family: vazir;
+}
+
+li{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.main-menu{
+    background-color: #f7c5c5;
+    height: 70px;
+}
+
+.main-menu .menu-items ul li{
+    display: inline-block;
+    margin-left: 12px;
+    position: relative;
+}
+.main-menu .menu-items ul li a{
+    padding: 25px 0;
+    display: inline-block;
+    color: #555;
+}
+
+.main-menu .menu-items ul li a:hover{
+color: #000;
+}
+
+.main-menu .menu-items ul li > ul{
+    position: absolute;
+   width: 180px;
+   background-color: #f7c5c5;
+   right: 0;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .3s ease;
+}
+
+.main-menu .menu-items ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s ease;
+    padding: 10px;
+}
+
+.main-menu .menu-items ul li ul li{
+    display: block;
+    width: 100%;
+  
+}
+
+.main-menu .menu-items ul li ul li a{
+    display: block;
+    padding: 10px 12px 10px 8px;
+    position: relative;
+}
+
+.main-menu .menu-items ul li ul li a::before{
+    content:"\f104" ;
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.main-menu .menu-items ul li ul li ul{
+    top:0 ;
+    right: 100%;
+}
+
+.slider-box{
+    padding: 50px 20px;
+    background-image: url('/img/patern.png');
+    background-position: center center;
+    background-size: contain;
+}
+
+.slider-box h1{
+    margin: 20px 5px;
+ 
+}
+
+.slider-box p{
+    line-height: 2;
+    color: #515151;
+}
+
+.slider-box a{
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: transparent;
+    color: #3d3838;
+    padding: 7px 18px 7px 15px;
+    border-radius: 20px;
+    border: 2px solid #12aaea;
+    transition: all .3s ease; 
+}
+
+.slider-box a:hover{
+    background-color: #12aaea;
+    transition: all .3s ease;
+}
+
+.slider-box a i{
+    position: relative;
+    top: 2px;
+    font-size: 11px;
+}
+
+

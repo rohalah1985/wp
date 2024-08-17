@@ -24,6 +24,10 @@ a,a:hover{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 .top-bar{
     font-size: 12px;
     padding: 8px 0;
@@ -157,6 +161,20 @@ color: #000;
 text-align: justify;  
 line-height: 2;  
 }
+.site-btn{
+    background-color: #12aaea;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all .3s ease;
+   
+}
+
+.site-btn:hover{
+    opacity: .8;
+    transition: all .3s ease;
+ 
+}
 .desc a{
     background-color: #12aaea;
     padding: 10px 20px;
@@ -208,5 +226,39 @@ line-height: 2;
     margin-right: 10px;
  
 }
+
+.index-blog{
+    margin-bottom: 100px;
+}
+.index-blog .row{
+    margin-bottom: 60px;
+}
+
+.index-blog .description{
+    line-height: 2;
+}
+
+.index-blog .description .meta{
+    padding: 15px;
+    border-top: 2px solid #eee;
+    font-size: 12px;
+}
+
+.index-blog .description .meta span{
+    margin-left: 15px;
+}
+
+.index-blog .description  p{
+    color: #515151;
+    line-height: 3;
+    margin: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.index-blog .pic img{
+    border-radius: 20px;
+}
+
 
 

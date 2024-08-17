@@ -24,6 +24,17 @@ a,a:hover{
     text-decoration: none;
 }
 
+.top-bar{
+    font-size: 12px;
+    padding: 8px 0;
+
+}
+
+.top-bar span{
+    padding-left: 20px;
+    line-height: 2;
+}
+
 .main-menu{
     background-color: #f7c5c5;
     height: 70px;

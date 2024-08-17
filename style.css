@@ -92,6 +92,7 @@ color: #000;
     background-image: url('/img/patern.png');
     background-position: center center;
     background-size: contain;
+    margin-bottom: 50px;
 }
 
 .slider-box h1{
@@ -124,6 +125,74 @@ color: #000;
     position: relative;
     top: 2px;
     font-size: 11px;
+}
+.services{
+    margin-bottom: 100px;
+    
+}
+.desc h4{
+    color: #12aaea;
+}
+
+.desc span{
+    color: #515151;
+    font-size: 14px;
+}
+
+.services .desc p{
+text-align: justify;  
+line-height: 2;  
+}
+.desc a{
+    background-color: #12aaea;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all .3s ease;
+
+}
+
+.desc a:hover{
+    opacity: .8;
+    transition: all .3s ease;
+
+}
+
+.item p{
+    text-align: justify;
+   
+}
+.item h4{
+    color: #12aaea;
+}
+.item:hover {
+    background-color: yellowgreen;
+    transition: all .3s ease;
+
+}
+
+.item:hover i{
+    color: #fff;
+}
+
+.item{
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 8px 0px #757171;
+    margin-bottom: 20px;
+}
+
+.item i{
+    font-size: 50px;
+    color: #12aaea;
+    display: inline;
+   
+   
+}
+.item h4{
+    display: inline-block;
+    margin-right: 10px;
+ 
 }
 
 

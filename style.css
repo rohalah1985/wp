@@ -260,12 +260,17 @@ line-height: 2;
     border-radius: 20px;
 }
 
+.site_content{
+    margin-bottom: 100px;
+}
+
 .site_content .box{
     display: inline-block;
     width: 100%;
     background-color: #fff;
     border-radius: 20px;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 .site_content .box span.title {
@@ -274,6 +279,7 @@ line-height: 2;
     color: #222;
     padding: 10px 0;
     border-bottom: 2px solid gray;
+    margin-bottom: 35px;
 }
 
 .site_content .box .pic img{
@@ -300,11 +306,25 @@ line-height: 2;
     text-align: justify;
     color: #777;
     line-height: 2;
+    height: 52px;
+    overflow: hidden;
 }
 
 .site_content .box .desc2 span{
     font-size: 12px;
     color: #999;
+   }
+
+   .site_content .box .post_item_bx{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9dede;
+    display: inline-block;
+    width: 100%;
+   }
+
+   .site_content .box .post_item_bx:last-child{
+    border-bottom: 0;
    }
 
 

@@ -544,6 +544,16 @@ font-size: 15px;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
+  span.page-title{
+    display: block;
+    padding: 15px 0 30px 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #9f9595;
+    width: 100%;
+    color: #777;
+
+  }
+
 
 
 

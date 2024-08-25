@@ -1,3 +1,20 @@
+/*
+Theme Name: blog
+Theme URI: 
+Author: the rohalah
+Author URI: https://wordpress.org/
+Description: custom theme
+Requires at least: 5.9
+Tested up to: 6.6
+Requires PHP: 5.6
+Version: 1.8
+Text Domain: blog-1
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, style-variations, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
+
+Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
+Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+*/
+
 * {
   padding: 0;
   margin: 0;

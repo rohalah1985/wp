@@ -62,6 +62,7 @@
   </div>
 </div>
 
-    <script src="/js/bootstrap.js"></script>
+ <?php wp_footer(); ?> 
+ 
   </body>
 </html>

@@ -26,4 +26,20 @@ function theme_style(){
 add_action('wp_enqueue_scripts','theme_style');
 
 
+function theme_widgets(){
+    register_sidebar([
+        'id'=> 'footer_desc',
+        'name'=> 'ابزارک فوتر',
+        "description" => "ابزارک توضیحات فوتر",
+        'before_widget'=> '<div class="desc_footer footer_menu">',
+        "after_widget" => " </div>",
+        "before_title" => " <span class='title'>",
+        "after_title" => "</span> "
+
+    ]);
+}
+
+add_action('widgets_init', "theme_widgets");
+
+
 

@@ -96,78 +96,7 @@
       </div>
     </div>
 
-    <div class="index-blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="description">
-              <h4>عنوان ها در این قسمت باشد</h4>
-              <div class="meta">
-                <span><i class="fa fa-calendar-o"></i>1403/5/27</span>
-                <span><i class="fa fa-comment-o"></i>10 نظر</spaنظرn>
-                  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود</p>
-                  <div class="text-start">
-                    <a href="#" class="site-btn">ادامه مطلب...</a>
-                  </div>
-              </div>
-            </div> 
-          </div>
-          <div class="col-md-6">
-            <div class="pic">
-              <img src="<?php echo get_template_directory_uri() ?>/img/custom_search-min.png" alt="">
-
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-       
-          <div class="col-md-6">
-            <div class="pic">
-              <img src="<?php echo get_template_directory_uri() ?>/img/wordpress_sidebars-min.png" alt="">
-
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="description">
-              <h4>عنوان ها در این قسمت باشد</h4>
-              <div class="meta">
-                <span><i class="fa fa-calendar-o"></i>1403/5/27</span>
-                <span><i class="fa fa-comment-o"></i>10 نظر</spaنظرn>
-                  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود</p>
-                  <div class="text-start">
-                    <a href="#" class="site-btn">ادامه مطلب...</a>
-                  </div>
-              </div>
-            </div> 
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="description">
-              <h4>عنوان ها در این قسمت باشد</h4>
-              <div class="meta">
-                <span><i class="fa fa-calendar-o"></i>1403/5/27</span>
-                <span><i class="fa fa-comment-o"></i>10 نظر</spaنظرn>
-                  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود</p>
-                  <div class="text-start">
-                    <a href="#" class="site-btn">ادامه مطلب...</a>
-                  </div>
-              </div>
-            </div> 
-          </div>
-          <div class="col-md-6">
-            <div class="pic">
-              <img src="<?php echo get_template_directory_uri() ?>/img/css_acardion_menu-min.png" alt="">
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
+<?php get_template_part('inc/index', 'blog')  ?>
 
 <div class="site_content">
   <div class="container">

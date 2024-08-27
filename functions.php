@@ -5,6 +5,7 @@ define("WP_DIR",get_template_directory_uri());
 function theme_setup(){
     add_theme_support('title-tag');
     add_theme_support('widgets');
+    add_theme_support('post-thumbnails');
     register_nav_menus([
         'main_menu' => 'منوی اصلی',
         'footer_one' => ' فوتر 1',

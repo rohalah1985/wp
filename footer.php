@@ -4,39 +4,36 @@
         <div class="col-md-3">
           <div class="footer_menu">
             <span class="title">دسترسی سریع</span>
-            <ul>
-              <li><a href="#">خانه</a></li>
-              <li><a href="#">تماس با ما</a></li>
-              <li><a href="#">مجلات</a></li>
-              <li><a href="#">بلاگ</a></li>
-              <li><a href="#">حریم خصوصی</a></li>
-            </ul>
+            <?php
+            wp_nav_menu([
+              'theme_location'=> 'footer_one',
+              'depth' => '1'
+            ]) 
+            ?>
 
          </div>
         </div>
         <div class="col-md-3">
           <div class="footer_menu">
             <span class="title">دسترسی سریع</span>
-            <ul>
-              <li><a href="#">خانه</a></li>
-              <li><a href="#">تماس با ما</a></li>
-              <li><a href="#">مجلات</a></li>
-              <li><a href="#">بلاگ</a></li>
-              <li><a href="#">حریم خصوصی</a></li>
-            </ul>
+            <?php
+            wp_nav_menu([
+              'theme_location'=> 'footer_two',
+              'depth' => '1'
+            ]) 
+            ?>
 
          </div>
         </div>
         <div class="col-md-3">
           <div class="footer_menu">
             <span class="title">دسترسی سریع</span>
-            <ul>
-              <li><a href="#">خانه</a></li>
-              <li><a href="#">تماس با ما</a></li>
-              <li><a href="#">مجلات</a></li>
-              <li><a href="#">بلاگ</a></li>
-              <li><a href="#">حریم خصوصی</a></li>
-            </ul>
+            <?php
+            wp_nav_menu([
+              'theme_location'=> 'footer_three',
+              'depth' => '1'
+            ]) 
+            ?>
 
          </div>
         </div>
@@ -63,6 +60,6 @@
 </div>
 
  <?php wp_footer(); ?> 
- 
+
   </body>
 </html>

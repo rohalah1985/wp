@@ -26,28 +26,12 @@
         <div class="row">
           <div class="col-md-9">
             <div class="menu-items">
-              <ul>
-                <li><a href="">خانه</a></li>
-                <li><a href="">اخبار</a></li>
-                <li><a href="">تماس با ما</a></li>
-                <li>
-                  <a href="">درباره ما</a>
-                  <ul>
-                    <li><a href="">خانه</a></li>
-                    <li><a href="">اخبار</a></li>
-                    <li>
-                      <a href="">تماس با ما</a>
-                      <ul>
-                        <li><a href="">خانه</a></li>
-                        <li><a href="">اخبار</a></li>
-                        <li><a href="">تماس با ما</a></li>
-                        <li><a href="">درباره ما</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="">درباره ما</a></li>
-                  </ul>
-                </li>
-              </ul>
+            <?php
+            wp_nav_menu([
+              'theme_location'=> 'main_menu',
+              'depth' => '3'
+            ]) 
+            ?>
             </div>
           </div>
           <div class="col-md-3">

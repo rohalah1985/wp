@@ -1,8 +1,6 @@
 <?php get_header() ?>
   <body>
 
- 
-
     <div class="page-baner">
       <div class="container">
         <div class="row">

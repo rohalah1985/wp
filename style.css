@@ -24,7 +24,9 @@ Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 
 @font-face {
   font-family: vazir;
-  src: url("/fonts/Vazir.woff");
+
+  src: local('vazir'), 
+		url("/fonts/Vazir.woff") ;  
 }
 
 body {

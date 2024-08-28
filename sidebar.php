@@ -1,7 +1,9 @@
+
+
 <div class="col-md-3">
             <div class="search-box">
-              <form action="">
-                <input type="text" name="" placeholder="جستجو..."><button></button>
+              <form action="<?php bloginfo('home') ?>"  method="get">
+                <input type="text" name="s" placeholder="جستجو..."><button></button>
                 <button type="submit"><i class="fa fa-search"></i></button>
               </form>
             </div>
@@ -17,3 +19,6 @@
                 
               </div>
           </div>
+
+
+        

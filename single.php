@@ -1,15 +1,7 @@
-<?php get_header() ?>
-  <body>
+<?php get_header(); ?>
 
-    <div class="page-baner">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <span>عنوان صفحه</span> 
-          </div>
-        </div>
-      </div>
-    </div>
+
+<?php get_template_part("inc/page","baner"); ?>
 
    
       <div class="container">
@@ -42,14 +34,23 @@
 
             </div>
           </div>
-        <?php get_sidebar() ?>
+          <?php get_sidebar() ?>
         </div>
-    
+      
+
       </div>
-     
+
 
     
     </div>
-   
 
-    <?php get_footer() ?>
+  
+<?php get_footer(); ?>
+  
+
+   
+  
+
+  
+
+  

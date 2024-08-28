@@ -1,19 +1,28 @@
 <?php get_header() ?> 
 
 
-    <div class="page-baner">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <span>عنوان صفحه</span> 
-          </div>
-        </div>
-      </div>
-    </div>
+ <?php get_template_part("inc/page","baner"); ?>
 
     <div class="index-blog">
       <div class="container">
+        <span class="page-title"><i class="fa fa-angle-left"></i>
+        <?php if(is_home()) {
+          echo "اخبار و مقالات";
+        }
+        elseif(is_category()){
+          echo single_cat_title();
+        }
+        elseif(is_tag()){
+          echo single_tag_title();
+        }
+        elseif (is_search()){
+          echo "جستجو کردید برای :";
+          echo $_GET['s'];
+        }
+        ?>
 
+</span>
+        <?php if(have_posts()){ ?>
       <?php while(have_posts()):the_post(); ?>
 
         <div class="row">
@@ -42,7 +51,17 @@
         </div>
 
         <?php endwhile ?>
-      
+
+        <?php }else echo "نتیجه ای یافت نشد!" ?>
+
+        </div>
+
+        <div class="col-md-12 text-center">
+          <div class="pagination-box">
+          <?php echo paginate_links() ?>
+        
+          </div>
+
    
 
       </div>
@@ -52,5 +71,7 @@
     </div>
 
 </div>
+
+
 
 <?php get_footer() ?>

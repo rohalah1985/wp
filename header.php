@@ -35,7 +35,9 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="logo-box"></div>
+            <div class="logo-box">
+              <?php the_custom_logo() ?> 
+            </div>
           </div>
         </div>
       </div>

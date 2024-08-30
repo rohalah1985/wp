@@ -13,7 +13,6 @@
               <div class="meta">
                 <span ><i class="fa fa-clock-o"></i><?php echo get_the_date() ?> </span>
                 <span ><i class="fa fa-comment-o"></i> <?php echo get_comments_number()  ?> </span>
-                <span ><i class="fa fa-archive"></i><a href="#"><?php the_category(" , ") ?> </a></span>
                 </div>
               <h1>  <?php the_title()  ?>  </h1><hr>
               <div class="p-text">
@@ -25,8 +24,6 @@
               <div class="post-tags">
              <?php the_tags() ?>
               </div>
-
-           <?php get_template_part('/inc/releated', 'post')  ?>
 
               <div class="comments_box">
                 <?php comments_template()  ?>

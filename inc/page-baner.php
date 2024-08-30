@@ -19,6 +19,9 @@
         elseif (is_single() || is_page()){
             echo the_title();
         }
+        elseif (is_404() ){
+          echo "محتوای شما یافت نشد!";
+      }
         ?>
             </span> 
           </div>

@@ -9,6 +9,7 @@ function theme_setup(){
         'footer_one' => ' فوتر 1',
         'footer_two' => ' فوتر 2',
         'footer_three' => 'فوتر 3 ',
+        'footer_social' => ' شبکه اجتماعی ',
     ]);
 }
 
